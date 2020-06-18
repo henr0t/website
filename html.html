@@ -3,37 +3,68 @@
 
 <head>
     <title>Leren HTML</title>
+    <link rel="stylesheet" href="css/styling.css">
     
 <head>
 <body>
+    <header>
     <nav>
-        <a href="index.html">Qien Coding
-        institute</a>
+        <div class="container">
+            <div class="nav-wrapper">
+                <a class="nav-logo">
+                    <span class="logo-first">Qien Coding</span>
+                    <span class="logo-second">institute</span> 
+                </a>
+                
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="index.html">Terug</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
+    <section class="header-section">
+        <div class="container">
+            <div>
+                <div class="header-outer-wrapper">
+                    <div class="header-text-wrapper">
+                        <h2 class="header-two">Inhoud Training</h2>
+                            <ol class="parapgraph-standard">
+                            <li>Wat is HTML?</li>
+                            <li>Tags, syntax en structuur</li>
+                            <li>Opbouw en content</li>
+                            <li>Lists</li>
+                            <li>Maken van links</li>
+                            <li>Afbeeldingen</li>
+                            <li>Tekstopmaak</li>
+                            <li>Tables</li>
+                            <li>Attributen: class & id</li>
+                            <li>Commentaar tovoegen</li>
+                        </ol>
+                    </div>
+                    <div class="header-img-wrapper">
+                        <img src="img/html-head.jpg" alt="html image" title="html image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </header>
     <main>
         <section>
             <div class="container">
-                <table style="width: 100%;">
-                    <tr>
-                        <th>Naam cursus</th>
-                        <th>Thema</th>
-                        <th>leestijd</th>
-                    </tr>
-                    <tr>
-                        <td>Tabellen maken</td>
-                        <td>HTML</td>
-                        <td>12 minuten</td>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum</td>
-                        <td>HTML</td>
-                        <td>15 minuten</td>
-                    </tr>
-                </table>
+                <article class="flex-article">
+                    <div class="article-text-wrapper">
+                        <h2>Wat is HTML?</h2>
+                    </div>
+                </article>
             </div>
         </section>
     </main>
-    
-</body>
 
+</body>
+<footer>
+    <div class="container">
+        <small>© 2020 Henry </small>
+    </div>
+</footer>
 </html>
