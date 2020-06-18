@@ -26,6 +26,14 @@ footer{
     color: white;
 }
 
+table, th, td {
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 2px solid #FFC9FB;
+    background-color: #383838;
+  }
+
 
 nav {
     padding: 20px 0;
@@ -194,13 +202,17 @@ filter: grayscale(100%);
 }
 
 .linkblock{
-    padding: 20px 30px;
-        float:right;
+    padding: 15px 10px;
+    float:right;
+    min-width: 200px;
     background-color: #9B00FF;
     border-radius: 5px;
     color: white;
+    text-align: center;
    
 }
+
+a { color: white; }
 
 #IDcursussen{
 
