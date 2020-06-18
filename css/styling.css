@@ -193,6 +193,15 @@ filter: grayscale(100%);
     
 }
 
+.linkblock{
+    padding: 20px 30px;
+        float:right;
+    background-color: #9B00FF;
+    border-radius: 5px;
+    color: white;
+   
+}
+
 #IDcursussen{
 
 }
